@@ -16,17 +16,17 @@ export default function Home() {
   
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[#001d49]">
+    <main className="flex min-h-screen flex-col items-center justify-between py-24  bg-[#001d49]">
     <div className='absolute top-0 right-0 z-20'>
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5"  />
         </div>
 
     
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left gap-4">
+      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left gap-4 px-3 lg:gap-6 lg:px-1">
       
       
               <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
@@ -43,8 +43,11 @@ export default function Home() {
                 </div>
               </a>
 
+               {/* Vertical Line */}
+    
+
               <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg   px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
@@ -62,7 +65,7 @@ export default function Home() {
               </a>
 
            <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg   px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
@@ -80,7 +83,7 @@ export default function Home() {
               </a>
 
             <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg   px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
@@ -98,7 +101,7 @@ export default function Home() {
               </a>
 
               <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg   px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
@@ -116,7 +119,7 @@ export default function Home() {
               </a>
 
               <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg   px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
@@ -133,7 +136,7 @@ export default function Home() {
                 </div>
               </a>
               <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg   px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
@@ -150,7 +153,7 @@ export default function Home() {
                 </div>
               </a>
               <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg   px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
@@ -167,11 +170,11 @@ export default function Home() {
                 </div>
               </a>
               <a
-                className="group rounded-lg border-2 border-blue-950 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
+                className="group rounded-lg   px-5 py-4 transition-colors hover:border-gray-300 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex gap-4 items-center"
                 target="_blank"
                 rel="noopener noreferrer">
 
-                <Image height={60} width={60} src={block} loading="eager" alt="logo" className="mb-8"/>                
+                <Image height={60} width={60} src={software} loading="eager" alt="logo" className="mb-8"/>                
                 <div>
                   <h2 className="mb-3 text-xl font-semibold">
                   Blockchain Solutions{" "}

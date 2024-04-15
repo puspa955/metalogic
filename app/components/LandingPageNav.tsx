@@ -37,14 +37,15 @@ const LandingPageNav: React.FC<NavbarProps> = ({ section1Id, section2Id, section
 
   return (
     <>
-      <nav className='z-50 w-[100vw] lg:px-24 px-4 border-b-2 border-blue-950 text-white'>
+      <nav className='z-50 w-[100vw] lg:px-20 px-4 border-b-2 border-blue-950 text-white'>
        <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex py-1 ">
           <div>
             <div className="flex items-center justify-between">
-              <div className='pl-5 md:pl-0'>
+              <div className=' md:pl-0 flex'>
                 <Link href="/" prefetch={false} >
-                  <Image height={60} width={60} src={metalogo} loading="eager" alt="logo"/>
+                  <Image height={60} width={60} src={metalogo} loading="eager" alt="logo" className='py-2'/>
                 </Link>
+                <p className='p-4 text-3xl'>MetaLogic</p>
               </div>
               <div className="lg:hidden">
                 <button
